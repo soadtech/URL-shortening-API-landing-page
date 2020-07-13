@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Shortly</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Shortly</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Features <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+          </ul>
+          <div class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <button class="btn btn-signUp" type="submit">
+                Search
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container hero">
+        <div class="row">
+          <div class="hero__info col-md-6 mt-5">
+            <h1 class="hero__info--title">More than just shorter links</h1>
+            <p class="hero__info--parrafo">
+              Build your brand's recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <button class="btn hero__info--btn">Get Started</button>
+          </div>
+          <div class="hero__img col-md-6">
+            <img src="/images/illustration-working.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="short">
+        <div class="container input__short">
+          <input
+            type="text"
+            placeholder="shorten link at..."
+            id="shortenInput"
+          />
+          <button class="btn" id="shorten">Shorten It!</button>
+        </div>
+        <div class="container" id="msg-error"></div>
+        <div class="container renderLinks">
+          <!--Links here...-->
+        </div>
+        <br /><br />
+
+        <div class="container stadistics text-center">
+          <h2 class="stadistics__subtitle">Advanced Statistics</h2>
+          <p class="stadistics__parrafo">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard
+          </p>
+
+          <div class="contenedores">
+            <div class="contenedores__card">
+              <img src="/images/icon-brand-recognition.svg" alt="" />
+              <div class="contenedores__card__body">
+                <h3 class="contenedores__card--title">Brand recognition</h3>
+                <p class="contenedores__card--body">
+                  Boost your brand recognition with each click. Generic links
+                  don’t mean a thing. Branded links help instil confidence in
+                  your content.
+                </p>
+              </div>
+            </div>
+            <div class="contenedores__card card-2">
+              <img src="/images/icon-detailed-records.svg" alt="" />
+              <div class="contenedores__card__body">
+                <h3 class="contenedores__card--title">Detailed Records</h3>
+                <p class="contenedores__card--body">
+                  Gain insights into who is clicking your links. Knowing when
+                  and where people engage with your content helps inform better
+                  decisions.
+                </p>
+              </div>
+            </div>
+            <div class="contenedores__card card-3">
+              <img src="/images/icon-fully-customizable.svg" alt="" />
+              <div class="contenedores__card__body">
+                <h3 class="contenedores__card--title">Fully Customizable</h3>
+                <p class="contenedores__card--body">
+                  Improve brand awareness and content discoverability through
+                  customizable links, supercharging audience engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br /><br />
+        </div>
+        <br /><br />
+        <br /><br />
+      </section>
+
+      <div class="nose">
+        <div class="container">
+          <h2>Boost your links today</h2>
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer">
+        <h2>Shortly</h2>
+        <ul class="footer__features">
+          <h3 class="footer__features--title">Features</h3>
+          <li class="footer__features--item">Link Shortening</li>
+          <li class="footer__features--item">Branden Links</li>
+          <li class="footer__features--item">Analytics</li>
+        </ul>
+
+        <ul class="footer__resources">
+          <h3 class="footer__resources--title">Resources</h3>
+          <li class="footer__resources--item">Blog</li>
+          <li class="footer__resources--item">Developers</li>
+          <li class="footer__resources--item">Support</li>
+        </ul>
+
+        <ul class="footer__company">
+          <h3 class="footer__company--title">Company</h3>
+          <li class="footer__company--item">About</li>
+          <li class="footer__company--item">Our Team</li>
+          <li class="footer__company--item">Careers</li>
+          <li class="footer__company--item">Contact</li>
+        </ul>
+        <ul class="footer__redes d-flex justify-content-around">
+          <li class="footer__redes--item">
+            <img src="/images/icon-facebook.svg" alt="icon-facebook" />
+          </li>
+          <li class="footer__redes--item">
+            <img src="/images/icon-twitter.svg" alt="icon-twitter" />
+          </li>
+          <li class="footer__redes--item">
+            <img src="/images/icon-pinterest.svg" alt=" icon-pinterest" />
+          </li>
+          <li class="footer__redes--item">
+            <img src="/images/icon-instagram.svg" alt="icon-instagram" />
+          </li>
+        </ul>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/soadtech" target="_blank">Fernando Ropero</a
+        >.
+      </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/solution/js/index.js"></script>
+  </body>
+</html>

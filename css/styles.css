@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+}
+
+.navbar-nav li a {
+  color: hsl(0, 0%, 75%);
+}
+
+.navbar-nav li a:hover {
+  color: black;
+}
+.hero {
+  margin-bottom: 10%;
+}
+.btn-signUp {
+  padding: 0px 25px;
+  border-radius: 25px;
+  margin-left: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+
+.hero__info--title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.hero__info--parrafo {
+  color: hsl(0, 0%, 75%);
+}
+.hero__info--btn {
+  padding: 5px 30px;
+  border-radius: 25px;
+  margin-left: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+.short {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.input__short {
+  position: relative;
+  padding: 50px 40px;
+  background-color: hsl(255, 11%, 22%);
+  background-image: url("/images/bg-shorten-desktop.svg");
+  background-size: cover;
+  border-radius: 15px;
+  top: -60px;
+}
+.input__short input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+}
+.input__short button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+
+.links {
+  display: flex;
+  background-color: white;
+  padding: 10px 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.links p {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.links__action--link {
+  color: hsl(180, 66%, 49%);
+}
+.links__action--copy {
+  padding: 7px 30px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+.stadistics__subtitle {
+  font-weight: 700;
+}
+.stadistics__parrafo {
+  color: hsl(0, 0%, 75%);
+  width: 48%;
+  margin: auto;
+}
+
+.contenedores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+}
+.contenedores__card {
+  background-color: white;
+  padding: 20px;
+}
+.contenedores__card__body {
+  position: relative;
+  top: -30px;
+  background: none;
+}
+.card-2 {
+  position: relative;
+  top: 60px;
+}
+.card-3 {
+  position: relative;
+  top: 120px;
+}
+.contenedores__card img {
+  background-color: hsl(255, 11%, 22%);
+  padding: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: -48px;
+  left: -88px;
+}
+
+/** CARDS **/
+.contenedores__card--title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contenedores__card--body {
+  color: hsl(0, 0%, 75%);
+}
+
+.nose {
+  text-align: center;
+  background-color: hsl(255, 11%, 22%);
+  background-image: url("/images/bg-boost-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+}
+.nose h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.nose button {
+  padding: 7px 30px;
+  border-radius: 25px;
+  margin-left: 15px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+
+footer {
+  background-color: hsl(260, 8%, 14%);
+}
+.footer {
+  display: grid;
+  grid-template-columns: 25% 20% 20% 20% 15%;
+  padding: 50px 15px;
+  color: white;
+}
+
+.footer h2 {
+  font-weight: 700;
+  font-size: 2.2em;
+}
+.footer__features,
+.footer__resources,
+.footer__company,
+.footer__redes {
+  list-style: none;
+}
+
+.footer__features--title,
+.footer__resources--title,
+.footer__company--title {
+  font-size: 20px;
+}
+
+.footer__features--item,
+.footer__resources--item,
+.footer__company--item,
+.footer__redes--item {
+  font-size: 15px;
+  color: #ffffff9e;
+}
+
+.msg-error {
+  margin-top: -40px;
+}
+
+.attribution {
+  margin: auto;
+  font-size: 11px;
+  text-align: center;
+  color: #ffffff9e;
+}
